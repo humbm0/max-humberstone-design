@@ -265,6 +265,7 @@ header.revslider-below { position:absolute; border:0; }
 .more-info { width:100%; padding:0px 0px 5px 0px; }
 article .more-info { padding:10px 0px 20px 0px; }
 span.padding { padding:0 6px; }
+.padding-10-all{ padding: 10%; }
 .padding-10 { padding-top:10px; }
 .padding-20 { padding-top:20px; }
 .padding-30 { padding-top:30px; }
@@ -322,6 +323,8 @@ img { width:auto; max-width: 100%; z-index:9; box-shadow: #fff 0 0 0 }
 img.small { width:300px; }
 
 .img-contain{}
+
+.screens .element{ padding: 5%; }
 
 .image-wrapper { position:relative; margin:0px 0 30px; }
 .image-wrapper2 { position:relative; margin:30px 0 30px; }
