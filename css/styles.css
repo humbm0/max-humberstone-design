@@ -86,7 +86,7 @@ p.small, a:hover p.small { font-size:13px; font-weight:400; }
 .grey{ color: #ABAEB4 !important;}
 .dark-grey{ color: #6a6a6a !important;}
 
-.screen-header{ width: 70%;}
+.screen-header{ margin-bottom: 30px;}
 
 blockquote { display:block; margin-top:5px; position:relative; border:0; margin-bottom:5px; padding:0; }
 article blockquote { padding:0 0 0 40px; float:right; width:50%; border-left:1px solid #ddd; margin-left:40px; }
@@ -324,7 +324,7 @@ img.small { width:300px; }
 
 .img-contain{}
 
-.screens .element{ padding: 5%; }
+.screens .element{ padding: 10%; }
 
 .image-wrapper { position:relative; margin:0px 0 30px; }
 .image-wrapper2 { position:relative; margin:30px 0 30px; }
