@@ -36,11 +36,11 @@ if(trim($name) == '') {
 } else if(trim($comments) == '') {
 
 	exit('<div class="error_message">Please enter your message.</div>');
-	
+
 } else if( strpos($comments, 'href') !== false ) {
 
 	exit('<div class="error_message">Please leave links as plain text.</div>');
-	
+
 } else if( strpos($comments, '[url') !== false ) {
 
 	exit('<div class="error_message">Please leave links as plain text.</div>');
@@ -49,7 +49,7 @@ if(trim($name) == '') {
 
 
 
-$address = 'hello@email.com';
+$address = 'maxhumberstonedesigns@gmail.com;
 
 
 

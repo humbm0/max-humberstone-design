@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
  		$('#submit')
 			.attr('disabled','disabled');
 
-		$.post(action, {
+		$post(action, {
 			name: $('#name').val(),
 			email: $('#email').val(),
 //			phone: $('#phone').val(),
