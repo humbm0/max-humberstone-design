@@ -33,6 +33,9 @@ nav { margin:0px; position:relative; display:block; height:auto; float:none; cle
 #nav li a.dead-link:before { right:5px;  top:15px; }
 
 .client { width:33.3333%; }
+
+.brand-logos{ text-align: center;}
+.brand-logos section{ margin-top: 30px;}
 }
 
 

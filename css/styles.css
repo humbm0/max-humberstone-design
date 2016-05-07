@@ -217,6 +217,10 @@ header.revslider-below { position:absolute; border:0; }
 .background-top{ background-position: top; }
 .grey-background{ background-color: #333;}
 
+.brand-logos{ padding: 30px; text-align: right;}
+.brand-logos img{ height:80px; margin-top:26px; margin-bottom: 10px; width: auto; max-width: none;}
+.brand-logos span{ width:100%; float:left; letter-spacing:2px; font-family: 'Playfair Display', serif; font-size:13px; opacity:0.6; padding-top: 10px;}
+
 .vertical-align{ position: relative; top: 45%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%);}
 .user-testing{ background-image: url('../images/user-testing.jpg'); background-position: top; background-size: 100%; background-repeat: no-repeat; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); }
 
