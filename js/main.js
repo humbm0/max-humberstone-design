@@ -1,15 +1,4 @@
 $(function(){
-    $(".type").typed({
-        strings: ["a user experience", "a visual", "an industrial"],
-        typeSpeed: 100,
-        loop: true,
-        startDelay: 1000,
-        // backspacing speed
-        backSpeed: 100,
-        // time before backspacing
-        backDelay: 3000,
-    });
-
 
     // Hide Header on on scroll down
     var didScroll;
@@ -46,7 +35,7 @@ $(function(){
                 $('header').removeClass('nav-up').addClass('nav-down');
             }
         }
-        
+
         lastScrollTop = st;
     }
 });
