@@ -377,7 +377,7 @@ a:hover span.arrow.rounded {
     display: block;
     background: url(../images/mh.png) no-repeat center;
     background-size: contain;
-    width: 120px;
+    width: 150px;
     /*try to keep it below 52px*/
 
     height: auto;
@@ -637,21 +637,13 @@ nav {
 --------------------------------------------------------------------------------------------------------*/
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 150;
+    position: relative;
+    z-index: 99;
     width: 100%;
     min-height: 100px;
-    max-height: 100px;
-    padding: 10px 0;
+    padding: 20px 0;
     border-bottom: 1px solid #ddd;
-    display: block;
-    background-color: #f4f4f4;
-    transition: top 0.4s ease-in-out;
-}
-.nav-up{
-  top: -120px;
+    display: block
 }
 header.revslider-below {
     position: absolute;

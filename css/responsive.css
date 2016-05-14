@@ -141,9 +141,6 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .padding-100{
-      padding: 50px;
-    }
 }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 
@@ -209,8 +206,5 @@
     .col-lg-9 .grey-wrapper,
     .col-lg-12 .grey-wrapper {
         padding: 25px 0px 25px;
-    }
-    .padding-100{
-      padding: 15px;
     }
 }
