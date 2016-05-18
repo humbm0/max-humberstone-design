@@ -6,12 +6,57 @@
 }
 /* Standard 960 or larger (browsers) */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
     #nav {
         display: table-cell !important
     }
     #nav-button {
         display: none;
+    }
+    .overlay {
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        -webkit-transition: opacity .5s ease-out;
+        -moz-transition: opacity .5s ease-out;
+        transition: opacity .5s ease-out;
+    }
+    .overlay .title {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+    }
+    .overlay .title h5 {
+        opacity: 0;
+        color: #fff !important;
+        transform: translateY(20px);
+        -webkit-transition: all .5s ease-out;
+        -moz-transition: all .5s ease-out;
+        transition: all .5s ease-out;
+    }
+    .overlay .title p {
+        opacity: 0;
+        color: #fff !important;
+        transform: translateY(20px);
+        -webkit-transition: all .5s ease-out;
+        -moz-transition: all .5s ease-out;
+        transition: all .5s ease-out;
+        -webkit-transition-delay: .1s;
+        -moz-transition-delay: .1s;
+        transition-delay: .1s;
+    }
+    .project:hover .overlay {
+        opacity: .8;
+    }
+    .project:hover .title h5 {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+    .project:hover .title p {
+        transform: translateY(-20px);
+        opacity: .7;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -118,6 +163,9 @@
     }
     .brand-logos section {
         margin-top: 30px;
+    }
+    .overlay {
+        display: none;
     }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
